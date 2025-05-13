@@ -1,0 +1,33 @@
+
+name: paymet_get_way
+description: A Flutter plugin for integrating IndianPay payment gateway (Payin, Payout, and Status).
+version: 1.0.0
+homepage: https://github.com/yourusername/paymet_get_way
+repository: https://github.com/yourusername/paymet_get_way
+issue_tracker: https://github.com/yourusername/paymet_get_way/issues
+license: MIT
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http:
+  provider:
+  fluttertoast:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.yourcompany.paymet_get_way
+        pluginClass: PaymetGetWayPlugin
+      ios:
+        pluginClass: PaymetGetWayPlugin
